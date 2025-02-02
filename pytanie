@@ -1,0 +1,87 @@
+Pytanie 1.
+Jak nazywa się podzbiór strukturalnego języka zapytań, związany z formułowaniem zapytań do bazy danych za pomocą polecenia SELECT? Pytanie bez nazwy
+SQL DQL (ang. Data Query Language)
+
+Pytanie 2.
+Jakie sa nazwy typowych poleceń języka zapytań SQL, związane z wykonywaniem operacji na danych SQL DML (np.: umieszczanie danych w bazie, kasowanie dokonywanie zmian w danych)?
+DELETE, INSERT, UPDATE
+
+Pytanie 3.
+Jak posortowana będzie lista, utworzona ze wszystkich kolumn tabeli uczniowie i zawierająca uczniów ze średnią większą od 5, która zostanie zwrócona jako wynik przedstawionego zapytania?
+Malejąco według parametru klasa
+ 
+Pytanie 4.
+Który z obiektów relacyjnej bazy danych, będący kodem języka SQL, może być wywoływany w zapytaniach modyfikujących kolumny danych widoczne jako tabela, bez względu na to czy jest tworzony programowo, czy dynamicznie?
+Funkcja zdefiniowana
+ 
+Pytanie 5.
+Jak nazywa się element bazy danych, za pomocą którego można jedynie odczytać dane z bazy, prezentując je w postaci tekstu lub wykresu?
+Raport
+
+Pytanie 6.
+Jakiego typu specjalizowane oprogramowanie narzędziowe należy zainstalować, aby umożliwić wykonywanie jego użytkownikowi operacji na zgromadzonych danych?
+System Zarządzania Bazą Danych (SZBD)
+
+Pytanie 7.
+Co należy zastosować w organizacji danych, aby zapytania w bazie danych były wykonywane szybciej?
+Indeksy
+
+Pytanie 8.
+Które z wymienionych osób odpowiadają za przygotowanie systemu bazy danych do pracy produkcyjnej w sposób ciągły, zarządzanie użytkownikami i instalowanie nowych wersji systemu bazodanowego?
+Administratorzy systemu bazy danych
+
+Pytanie 9.
+Z jakimi mechanizmami nadawania zabezpieczeń, dającymi możliwości wykonywania operacji na bazie danych, związane są zagadnienia zarządzania kontami, użytkownikami i uprawnieniami?
+Z przywilejami systemowymi
+
+Pytanie 10.
+Jakie należy posiadać uprawnienia, aby wykonać i odtworzyć kopię zapasową bazy danych Microsoft SQL Server?
+Administrator systemu
+
+Pytanie 11.
+Co to jest DBMS?
+
+Pytanie 12.
+Wskaż prawidłową kolejność tworzenia bazy danych
+Określenie celu, stworzenie tabel, utworzenie relacji, normalizacja
+
+Pytanie 13.
+Wskaż typ relacji pomiędzy tabelami: Tabela1 i Tabela3
+Wiele do wielu
+
+Pytanie 14.
+Którego ze słów kluczowych języka SQL należy użyć, aby wyeliminować duplikaty?
+DISTINCT
+
+Pytanie 15.
+Które ze stwierdzeń prawidłowo charakteryzuje zdefiniowaną tabelę: CREATE TABLE dane (kolumna INTEGER(3));
+Tabela o nazwie posiada jedną kolumnę liczb całkowitych
+
+Pytanie 16.
+Typ stało-znakowy w języku SQL to:
+char
+ 
+Pytanie 17.
+Polecenie w języku SQL ALTER TABLE USA... ma za zadanie
+Poprawna odpowiedź
+modyfikację tabeli USA
+
+Pytanie 18.
+Kod: SELECT imie, pesel, wiek FROM dane WHERE wiek IN (18,30) spowoduje wybranie:
+imion, numerów PESEL i wieku osób w wieku równym 18 lub 30 lat
+
+Pytanie 19.
+Aby policzyć wszystkie wiersze tabeli Koty należy użyć polecenia:
+SELECT COUNT(*) FROM Koty
+
+Pytanie 20.
+Aby podczas tworzenia tabeli utworzyć klucz obcy na wielu kolumnach, należy użyć polecenia
+CONSTRAINT fk_osoba_uczen FOREIGN KEY (nazwisko, imie) REFERENCES osoby (nazwisko,imie)
+
+Pytanie 21.
+Relacja w bazach danych jest
+logicznym połączeniem tabel
+
+Pytanie 22.
+Wskaż poprawną kolejność etapów projektowania relacyjnej bazy danych
+Określenie zbioru danych, Selekcja, Określenie kluczy podstawowych tabel, Określenie relacji
